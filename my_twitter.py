@@ -13,7 +13,9 @@ driver.get("http://www.google.com")
 search = driver.find_element_by_name("q")
 
 search.send_keys("quebecsocialist")
-search.send_keys(Keys.RETURN)
+search.submit()
+time.sleep(5)
+driver.find_element_by_partial_link_text("QuebecSocialist").click()
 
 time.sleep(10)
 driver.quit()
