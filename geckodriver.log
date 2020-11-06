@@ -1,0 +1,24 @@
+1604691795778	geckodriver	INFO	Listening on 127.0.0.1:54239
+1604691795783	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSBIN3i"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604691798615	Marionette	INFO	Listening on port 42057
+1604691798711	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604691809571	Marionette	INFO	Stopped listening on port 42057
+1604691822472	geckodriver	INFO	Listening on 127.0.0.1:38295
+1604691822477	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqI72a4"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604691825356	Marionette	INFO	Listening on port 37377
+1604691825439	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604691924991	geckodriver	INFO	Listening on 127.0.0.1:46367
+1604691924996	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7g2UzZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604691928138	Marionette	INFO	Listening on port 43021
+1604691928257	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604691930313	Marionette	INFO	Stopped listening on port 37377
+1604692006590	geckodriver	INFO	Listening on 127.0.0.1:42773
+1604692006598	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTnF8M3"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604692009640	Marionette	INFO	Listening on port 35251
+1604692009752	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604692022062	Marionette	INFO	Stopped listening on port 35251
+1604692025076	Marionette	INFO	Stopped listening on port 43021

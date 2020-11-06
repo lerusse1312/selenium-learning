@@ -14,3 +14,6 @@ search = driver.find_element_by_name("q")
 
 search.send_keys("quebecsocialist")
 search.send_keys(Keys.RETURN)
+
+time.sleep(10)
+driver.quit()
