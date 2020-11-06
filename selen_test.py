@@ -26,8 +26,3 @@ try:
     WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.PARTIAL_LINK_TEXT, "QuebecSocialist"))
     ).click()
-    wait = WebDriverWait(driver, 10)
-    follow = wait.until(EC.element_to_be_clickable((By.XPATH, '//span[contains(.,"Follow")]')))
-    follow.click()
-    #Follow
-    
