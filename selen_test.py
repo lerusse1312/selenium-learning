@@ -26,3 +26,6 @@ try:
     WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.PARTIAL_LINK_TEXT, "QuebecSocialist"))
     ).click()
+finally:
+    time.sleep(10)
+    driver.quit()
